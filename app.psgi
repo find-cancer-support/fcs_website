@@ -3,7 +3,7 @@ use warnings;
 
 use Plack::Builder;
 
-my $body = '<html><body>Hellow world</body></html>';
+my $body = '<html><body>Hellow world - sweet</body></html>';
 
 my $app = sub {
     my $self = shift;
